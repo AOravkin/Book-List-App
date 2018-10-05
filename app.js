@@ -59,7 +59,7 @@ UI.prototype.deleteBook = function(target) {
   }
 };
 
-// Add Event Listener for add book
+// Event Listener for add book
 document.getElementById("book-form").addEventListener("submit", function(e) {
   // Get values from the form
   const title = document.getElementById("title").value;
